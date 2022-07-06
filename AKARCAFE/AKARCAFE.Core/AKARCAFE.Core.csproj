@@ -80,6 +80,7 @@
     <Compile Include="DataAccess\Concrete\GenericRepository.cs" />
     <Compile Include="Entities\Abstract\IEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\GlobalDatas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -152,3 +152,6 @@ C:\Users\berkay.akar\Desktop\KAFE OTOMASYONU\AKARCAFE\AKARCAFE.DesktopUI\bin\Deb
 C:\Users\berkay.akar\Desktop\KAFE OTOMASYONU\AKARCAFE\AKARCAFE.DesktopUI\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
 C:\Users\berkay.akar\Desktop\KAFE OTOMASYONU\AKARCAFE\AKARCAFE.DesktopUI\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
 C:\Users\berkay.akar\Desktop\KAFE OTOMASYONU\AKARCAFE\AKARCAFE.DesktopUI\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+C:\Users\berkay.akar\Desktop\KAFE OTOMASYONU\AKARCAFE\AKARCAFE.DesktopUI\obj\Debug\AKARCAFE.DesktopUI.exe.licenses
+C:\Users\berkay.akar\Desktop\KAFE OTOMASYONU\AKARCAFE\AKARCAFE.DesktopUI\obj\Debug\AKARCAFE.DesktopUI.Ortak.GUI.frm_siparis.resources
+C:\Users\berkay.akar\Desktop\KAFE OTOMASYONU\AKARCAFE\AKARCAFE.DesktopUI\obj\Debug\AKARCAFE.DesktopUI.Ortak.GUI.frmgiris.resources

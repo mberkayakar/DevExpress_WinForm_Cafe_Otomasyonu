@@ -29,10 +29,18 @@ namespace AKARCAFE.DesktopUI.Ortak.GUI
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frm_siparis
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(342, 253);
+            this.Name = "frm_siparis";
             this.Text = "frm_siparis";
+            this.Load += new System.EventHandler(this.frm_siparis_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

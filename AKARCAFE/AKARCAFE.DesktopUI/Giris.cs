@@ -9,7 +9,7 @@ namespace AKARCAFE.DesktopUI
     {
         public Giris()
         {
-            InitializeComponent();
+             InitializeComponent();
         }
 
 

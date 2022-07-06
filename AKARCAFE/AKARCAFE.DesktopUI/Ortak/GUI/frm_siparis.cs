@@ -16,5 +16,10 @@ namespace AKARCAFE.DesktopUI.Ortak.GUI
         {
             InitializeComponent();
         }
+
+        private void frm_siparis_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

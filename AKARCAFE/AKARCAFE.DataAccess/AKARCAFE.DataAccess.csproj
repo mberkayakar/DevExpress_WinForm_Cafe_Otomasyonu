@@ -76,18 +76,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Concrete\DbContext\MyDbContext.cs" />
+    <Compile Include="Abstract\IProductRepository.cs" />
+    <Compile Include="Concrete\Context\Configuration\ProductConfiguration.cs" />
+    <Compile Include="Concrete\Context\DbContext\MyDbContext.cs" />
+    <Compile Include="Concrete\Repository\ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\Configuration\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\AKARCAFE.Core\AKARCAFE.Core.csproj">
+      <Project>{56A3FC67-303A-4D9C-BA7E-08F0320F2E25}</Project>
+      <Name>AKARCAFE.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AKARCAFE.Entities\AKARCAFE.Entities.csproj">
       <Project>{78168E90-E092-4931-8B16-B576288DC409}</Project>
       <Name>AKARCAFE.Entities</Name>
