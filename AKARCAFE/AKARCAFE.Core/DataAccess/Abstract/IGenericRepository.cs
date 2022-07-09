@@ -1,10 +1,11 @@
-﻿using System;
+﻿using AKARCAFE.Core.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
 namespace AKARCAFE.Core.DataAccess.Abstract
 {
-    public interface IGenericRepository<T>
+    public interface IGenericRepository<T> where T  : IEntity , new ()
     {
         void Add(T item);
         void Delete(T item);

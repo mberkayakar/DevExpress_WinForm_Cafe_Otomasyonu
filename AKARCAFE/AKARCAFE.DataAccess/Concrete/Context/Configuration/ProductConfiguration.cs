@@ -8,7 +8,7 @@ namespace AKARCAFE.DataAccess.Concrete.Context.Configuration
         public void Configure(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>().HasKey(x => x.Id);
-            modelBuilder.Entity<Product>().Property(x => x.Money).HasColumnName("");
+            modelBuilder.Entity<Product>().Property(x => x.Money).HasColumnName("URUN_FIYATI");
 
         }
     }

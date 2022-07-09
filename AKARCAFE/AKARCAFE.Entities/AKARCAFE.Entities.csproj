@@ -66,7 +66,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\Entities\Menu.cs" />
     <Compile Include="Concrete\Entities\Product.cs" />
+    <Compile Include="Concrete\Entities\UnitType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
